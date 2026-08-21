@@ -13,5 +13,4 @@ def selection_sort(nums):
 
     return nums
 
-
 print(selection_sort([5, 2, 3, 1]))

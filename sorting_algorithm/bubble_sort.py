@@ -13,7 +13,6 @@ def bubble_sort(nums):
 
                 isSwap = True
 
-        # This must be outside the inner loop
         if not isSwap:
             break
 
