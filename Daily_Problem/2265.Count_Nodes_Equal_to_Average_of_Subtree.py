@@ -19,5 +19,3 @@ def dfs(self, node):
         self.ans += 1
 
     return [total_sum, count]
-
-print(averageOfSubtree(root = [4,8,5,0,1,null,6]))
