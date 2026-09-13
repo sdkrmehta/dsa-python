@@ -1,3 +1,5 @@
+from bisect import bisect_left
+
 def maximumWeight(intervals):
     n = len(intervals)
     a = [(l, r, w, i) for i, (l, r, w) in enumerate(intervals)]
