@@ -22,7 +22,7 @@ def uniqueMorseRepresentations(words):
 
         ans.add(morse)
 
-    return len(ans)
+    return len(ans) 
 
 print(uniqueMorseRepresentations(["gin", "zen", "gig", "msg"]))
 
