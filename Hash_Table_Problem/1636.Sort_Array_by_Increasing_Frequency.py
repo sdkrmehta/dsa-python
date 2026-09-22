@@ -7,6 +7,8 @@ def frequencySort(nums):
         else:
             count[num] = 1
 
+    # Sort the numbers by frequency from small to large; 
+    # if frequency is tied, sort the number from large to small.
     ans = sorted(count, key=lambda x: (count[x], -x))
     result = []
 
