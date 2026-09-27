@@ -4,6 +4,7 @@ def digitFrequencyScore(n):
     while n > 0:
         digit_list.append(n % 10)
         n //= 10
+        
     digit_list.reverse()
 
     count = {}
