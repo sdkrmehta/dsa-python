@@ -14,6 +14,7 @@ def fourSumCount(nums1, nums2, nums3, nums4):
     for num3 in nums3:
         for num4 in nums4:
             total = num3 + num4
+            
 
             if -total in count1:
                 count += count1[-total]
