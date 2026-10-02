@@ -1,0 +1,12 @@
+def countPairs(nums, target):
+    nums.sort()
+    count = 0
+
+    for i in range(len(nums)):
+        for j in range(i + 1, len(nums)):
+            if sum([nums[i], nums[j]]) < target:
+                count += 1
+
+    return count
+
+print(countPairs(nums = [-1,1,2,3,1], target = 2))
